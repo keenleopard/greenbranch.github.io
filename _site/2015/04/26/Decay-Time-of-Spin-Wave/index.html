@@ -1,29 +1,70 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Decay Time</title>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<link rel="stylesheet" href="stylesheets/styles.css">
-<link rel="stylesheet" href="stylesheets/pygment_trac.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/font-awesome-4.3.0/css/font-awesome.css">
+    <!--link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"-->
+
+    <script src="javascripts/respond.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['$$$','$$$']]}});</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+  </head>
 
-<body>
-  <div class="wrapper">
-    <section>
-      <p>As for the formula of decay of SW at small $$$\omega$$$:
-       $$
-        \text{Im} J(q) = -\frac{\omega}{\pi} \text{Tr}_L [p(\varepsilon_F)\text{Im} T^{\uparrow}(k,\varepsilon_F) p(\varepsilon_F)\text{Im} T^{\downarrow}(k+q,\varepsilon_F)]
-       $$</p>
+  <body>
+      <div id="header">
 
-      <p>Should there be an integration over $$$k$$$, so this formula also become a convolution in $$$q$$$ space, as in the case of $$$J(q)$$$?
-      $$
-        J(q)=\frac{1}{\pi} \int dk \int ^{\varepsilon_F} dz ~\text{Im}[pT^{\uparrow}(k)pT^{\downarrow}(k+q)]
-      $$</p>
-    </section>
-  </div>
-</body>
+
+          <h1>Zhou's Lab</h1>
+
+          <p>The works of the Lord are great,
+            sought out of all them that have pleasure therein.
+          </p>
+
+          <nav>
+            <span class="social">
+              <a href="https://github.com/keenleopard"><i class="fa fa-github fa-2x"></i></a>
+              <a href="https://www.facebook.com/iampeng"><i class="fa fa-facebook fa-2x"></i></a>
+            </span>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/index.html">About Me</a></li>
+          </nav>
+          <!--span class="credits left">Project maintained by <a href="https://github.com/keenleopard">keenleopard</a></span>
+         <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span-->
+      </div>
+
+    <div class="wrapper">
+
+
+         <h1>Decay Time of Spin Wave</h1>
+              <p>As for the formula of decay of SW at small $$$\omega$$$:
+$$
+\text{Im} J(q) = -\frac{\omega}{\pi} \text{Tr}_L [p(\varepsilon_F)\text{Im} T^{\uparrow}(k,\varepsilon_F) p(\varepsilon_F)\text{Im} T^{\downarrow}(k+q,\varepsilon_F)]
+$$</p>
+
+<p>Should there be an integration over $$$k$$$, so this formula also become a convolution in $$$q$$$ space, as in the case of $$$J(q)$$$?
+$$
+J(q)=\frac{1}{\pi} \int dk \int ^{\varepsilon_F} dz ~\text{Im}[pT^{\uparrow}(k)pT^{\downarrow}(k+q)]
+$$</p>
+
+    </div>
+
+  </body>
 </html>
+
