@@ -719,15 +719,22 @@ dt {
   font-weight: normal;
   color: #696969;
   float:left
-  margin-top: -10px;
+  margin-top: 0;
 }
 #header .social{
   font-size:15px;
   font-weight:normal;
   color: #696969;
   float: right;
-  margin-top: -10px;
-  margin-right:20px;
+  margin-top: 0;
+  margin-right:0px;
+}
+#header h1{
+font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+line-height: 36px;
 }
 #header nav {
   max-width: 650px;
@@ -804,7 +811,7 @@ section {
   max-width: 650px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
-  margin-top: 70px;
+  margin-top: 120px;
 }
 section #title {
   border: 0;
