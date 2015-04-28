@@ -65,7 +65,7 @@ $$
 J_0 = \frac{1}{\pi} \int^{\varepsilon_F} d\varepsilon \text{Im} \text{Tr}[\Delta_0 T_{00} + \Delta\_0 T\_{00} ^\uparrow \Delta\_0 T\_{00} ^\downarrow]
 $$
 
-### Two-Site Rotation
+## Two-Site Rotation
 Next we consider the rotation of two spins along $$$y$$$ axis on opposite directions:
 $$
 \delta \mathbf{e}\_{i(j)}= (\pm\sin\theta/2, 0, \cos\theta/2-1)
