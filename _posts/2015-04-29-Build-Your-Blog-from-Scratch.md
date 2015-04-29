@@ -20,6 +20,9 @@ Jekyll in many ways is very similar to [WordPress](https://wordpress.org). They 
 
 Another big feature of Jekyll is the convenience. Once you have done the basic settings, you can totally focus on your contents for each posts. For example, [this file](http://www.pzhou.me/archive/2015-04-29-Build-Your-Blog-from-Scratch.md) is all I wrote for this post. Besides, if you use Jekyll together with Github Pages, you can work just on your local device without publishing it until you are satisfied. And Jekyll can build the website automatically as you are making changes!
 
+###[Font Awesome](http://fontawesome.io)
+You may wish to find some beautiful icons to be included in your website, and this website is just as it's name suggests: Awesome! The icons in the topright of my website are just implemented from Font Awesome. They are beautiful, Aren't they?
+
 ###[Andrew's tutorial to Jekyll](https://www.andrewmunsell.com/tutorials/jekyll-by-example/tutorial)
 I found the documents on Jekyll's official website is not easily comprehensible. So I google some tutorials and found his one is great. In addition, Andrew's [personal blog](https://www.andrewmunsell.com) is stunning, can be regraded as a template to compare your website with. 
 
