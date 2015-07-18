@@ -52,58 +52,40 @@ ript>
 
     <div class="wrapper">
 
-            <!--section>
-          <h3>In the world of Physics Pleasure We Find.</h3>
-          <p>Hello, World! My name is Peng Zhou and I am a physics student. Over a long time I have been hoping for creating
-a personal blog where I can put my physics, mathematical thoughts and computational practices. </p>
-      </section-->
+      <h1>How to download all pdfs listed on a website</h1>
 
-      <section>
-        <!--hr-->
-        
-        <div id="title">
-          <h2><a href="/2015/07/18/Download-All-PDFs-Listed-on-a-Website/">Download ALl Pdfs listed on a website</a></h2>
-          <h4>18 July 2015</h4>
-            <h5>
-              <a href="/2015/07/18/Download-All-PDFs-Listed-on-a-Website/">Read More</a>
-            </h5>
+<p>Sometimes I found a course website that contains a bunch of slides, notes, and exercises. It will be tidious to open all links one by one and download them one by one, therefore I found a good approach to <strong>download all pdfs on a website</strong></p>
 
-        </div>
+<p>The first step is to linke all external lines that ended in <strong>.pdf</strong>. It can be down in this way:</p>
 
-        
-        <div id="title">
-          <h2><a href="/2015/04/29/Build-Your-Blog-from-Scratch/">Build Your Blog from Scratch</a></h2>
-          <h4>29 April 2015</h4>
-            <h5>
-              <a href="/2015/04/29/Build-Your-Blog-from-Scratch/">Read More</a>
-            </h5>
+<pre><code>lynx -dump http://website.html | grep .pdf &gt; file.txt
+</code></pre>
 
-        </div>
+<p>the commmand before the pipe is to display all links on the website and the command after is to write those links ending in .pdf to a txt file.</p>
 
-        
-        <div id="title">
-          <h2><a href="/2015/04/28/exchange-interaction-parameter/">Exchange Interaction Parameters</a></h2>
-          <h4>28 April 2015</h4>
-            <h5>
-              <a href="/2015/04/28/exchange-interaction-parameter/">Read More</a>
-            </h5>
+<p>Yet if you open files.txt you will find the format is something like this:</p>
 
-        </div>
+<pre><code>23. http://website.html/Lecture1.pdf
+35. http://website.html/Lecture2.pdf
+</code></pre>
 
-        
-        <div id="title">
-          <h2><a href="/2015/04/26/Decay-Time-of-Spin-Wave/">Decay Time of Spin Wave</a></h2>
-          <h4>26 April 2015</h4>
-            <h5>
-              <a href="/2015/04/26/Decay-Time-of-Spin-Wave/">Read More</a>
-            </h5>
+<p>The first colum is the number index for the link. This will cannot be read if you want to use wget to download the files. The numbers can be removed in this way:</p>
 
-        </div>
+<pre><code>awk '{print $2}' &lt; file.txt &gt; file_md.txt
+</code></pre>
 
-        
-      </section>
+<p>and now the format will look like:</p>
 
-    </div>
+<pre><code>http://website.html/Lecture1.pdf
+http://website.html/Lecture2.pdf
+</code></pre>
+
+<p>Then we can use weget to download all the links by one command:</p>
+
+<pre><code>wget -i file_md.txt
+</code></pre>
+
+<p>That's it, quite simple :)</p>
 
     </div>
 
