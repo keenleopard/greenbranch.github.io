@@ -8,7 +8,7 @@ title: Remove_if-Generic-Function-Usage
 For Example, I define a UnaryPredicate as 
 
 
-```
+```c++
 class animal_dies
 {
 private:
@@ -25,7 +25,7 @@ public:
 
 Then I use 
 
-```
+```c++
 collection_.remove_if( animal_dies( number()/ double(max_size_) ) );
 ```
 where ```collection_``` is a container (here it is a list). 
