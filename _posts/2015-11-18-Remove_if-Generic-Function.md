@@ -1,10 +1,9 @@
-{%raw%}
 ---
 layout: default
 title: Remove_if-Generic-Function-Usage
 ---
-{%endraw%}
 
+#The use of remove_if function for a container
 
 For Example, I define a UnaryPredicate as 
 
