@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Build Your Blog from Scratch
+title: Dynamical Allocation to Return Local Address
 ---
 
 #Use Dynamical Allocation to return local address
