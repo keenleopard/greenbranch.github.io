@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Operator
+title: IOstream Flow Operator Overloading
 ---
 
 #Stream Flow Operator Overloading  
