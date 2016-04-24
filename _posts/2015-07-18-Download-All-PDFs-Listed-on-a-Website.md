@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Download ALl Pdfs listed on a website
+title: Download All Pdfs listed on a website
 ---
 
 #How to download all pdfs listed on a website
