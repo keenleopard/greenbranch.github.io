@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Edit Python Path w/o Editing PYTHONPATH
