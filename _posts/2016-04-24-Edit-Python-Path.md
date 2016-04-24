@@ -3,7 +3,7 @@ layout: default
 title: Edit Python Path w/o Editing PYTHONPATH
 ---
 
-# How to edit python path without editing PYTHONPATH
+#How to edit python path without editing PYTHONPATH
 
 I found sometimes it is quite annoying that python cannot find a new installed package. A typical solution is editing PYTHONPATH. A better solution might be the following: 
 
