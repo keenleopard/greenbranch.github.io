@@ -1,8 +1,8 @@
-name: "Zhou"
+name: "Peng Zhou"
 description: ""
 
 url: "http://localhost:4000"
-exclude: [archive/2015-04-26-Decay-Time-of-Spin-Wave.md]
+exclude: []
 
 paginate: 10
 
