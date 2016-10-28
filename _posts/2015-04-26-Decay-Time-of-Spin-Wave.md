@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: default 
 title: Decay Time of Spin Wave
 ---
 As for the formula of decay of SW at small $$$\omega$$$: 
