@@ -2,6 +2,7 @@
 layout: default 
 title: Decay Time of Spin Wave
 ---
+# Decay Time of Spin Wave
 As for the formula of decay of SW at small $$$\omega$$$: 
 $$
 \text{Im} J(q) = -\frac{\omega}{\pi} \text{Tr}_L [p(\varepsilon_F)\text{Im} T^{\uparrow}(k,\varepsilon_F) p(\varepsilon_F)\text{Im} T^{\downarrow}(k+q,\varepsilon_F)]
