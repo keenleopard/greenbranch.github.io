@@ -2,6 +2,7 @@ name: "Peng Zhou"
 description: ""
 
 url: "http://localhost:4000"
+markdown: kramdown
 exclude: []
 
 paginate: 10
