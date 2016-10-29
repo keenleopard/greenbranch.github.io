@@ -11,11 +11,11 @@ An example now is how to overload operators << and >> for user defined classes s
 
 The operator >> or << has **two operands** (iostream, class). when we do the most intuitve form operations:
 
-```
+~~~ C++
 Foo foo;
 std::cin >> foo;
 std::cout << foo;
-```
+~~~
 
 the one on the left is the first operands, and the one on the right is the second. 
 
@@ -23,14 +23,14 @@ the one on the left is the first operands, and the one on the right is the secon
 However, if we want to overload these operators inside classes:
 
 
-```
+~~~ c++
 Class Foo
 {
 public:
     std::ostream& operator<< (std::ostream&);
     void operator>> (std::iostream&);
 };
-```
+~~~
 
 the overloaded operator always take `*this` as the first parameter. So it will not work properly if we do the intuitive operations above. 
 
